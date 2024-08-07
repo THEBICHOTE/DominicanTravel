@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+     <title>Dominican Travel</title>
+    <meta name="keywords" content="excursions, tours, punta cana, dominican, vacation, resort, bavaro," />
+    <meta name="author" content="Wilbel Benitez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dominican Travel</title>
+   
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="img/logo .jpg ">
-  
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-          <li><a href="#Inicio">Inicio</a></li>
-          <li><a href="#Lugares">Lugares</a></li>
-          <li><a href="#Platillos">Platillos</a></li>
-          <li><a href="#Atracciones">Atracciones </a></li>
-          
-  </nav>
+    <div class="navbar">
+      <a href="#" onclick="showContent('inicio')">Inicio</a>
+      <a href="#" onclick="showContent('lugares')">Lugares</a>
+      <a href="#" onclick="showContent('platillos')">Platillos</a>
+      <a href="#" onclick="showContent('atracciones')">Atracciones</a>
+  </div>
   </header>
-    <img src="img/icono.png" alt="logo" class="logo">
-    <Footer>
-   <strong> &copy; 2024 Dominican Travel. Todos los Derechos Reservados</p>
-    </Footer> 
-  </body>
-</html>
-  
+
+ 
+<img src="img/icono.png" alt="logo" class="logo">
+  <div class="content" id="content">
+    <h1>Welcome to the Home Page</h1>
+    <p>Click on the links above to navigate.</p>
+</div>
+
+<script src="index.js"></script>
 <Footer>
-      <p>&copy; 2024 Dominican Travel. Todos los Derechos Reservados</p>
+   <strong> &copy; 2024 Dominican Travel. Todos los Derechos Reservados</p>
     </Footer> 
   </body>
 </html>
