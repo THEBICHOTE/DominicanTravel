@@ -2,57 +2,40 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#05477c  ;
+    background-color:#1d74bb  ;
 }
-header{
+header
+{
 color:white;
 padding: 10px 0;
 position:fixed;
 width: 100%;
-top: top;
+top:top;
 z-index: 1000;
 }
-nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0%;
-    display: flex;
-    justify-content:space-around;
-    background-color:black ;
+
+.navbar 
+{
+    display:flex;
+    justify-content: space-around;
+    background-color:black;
+    padding:1px;
 }
-
-nav ul li {
-    display: inline;
-
-}
-
-nav ul li a {
+.navbar a 
+{
     color: white;
-    text-decoration: none;
+    text-decoration:none;
     padding: 10px 20px;
-    display: inline-block;
 }
-
-nav ul li a:hover {
+.navbar a:hover 
+{
     background-color: #7db90b;
     border-radius: 50px;
 }
-
-section {
-    padding: 60px 20px;
-    margin-top: 50px;
+.content 
+{
+    padding: 20px;
 }
-
-#home {
-    background-color: #f4f4f4;
-}
-
-#Places {
-    background-color: #e2e2e2;
-}
-
-#Platillos {
-    background-color: #cccccc;
 }
 
 #Atraccion{
