@@ -6,6 +6,7 @@ function showContent(section) {
         case 'inicio':
             content = `
                   <h1>Bienvenido a la página de inicio</h1>
+                  <img src="img/icono.png" alt="logo" class="logo">
                 <h2>¡Dominican Travel!</h2>
                 <video width="640" height="360" controls>
       <source src="presentacion.mp4" type="video/mp4">
