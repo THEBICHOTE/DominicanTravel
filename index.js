@@ -5,9 +5,15 @@ function showContent(section) {
     switch (section) {
         case 'inicio':
             content = `
-                <h1>Bienvenido a la página de inicio</h1>
-                <h2>¡Bienvenidos a Descubre República Dominicana!</h2>
-                <strong>Sumérgete en la belleza y la diversidad de nuestro paraíso caribeño. Desde sus playas de arena blanca y aguas turquesas hasta sus vibrantes ciudades llenas de cultura y tradición, la República Dominicana es un destino que enamora a todos sus visitantes.</p>
+                  <h1>Bienvenido a la página de inicio</h1>
+                <h2>¡Dominican Travel!</h2>
+                <video width="640" height="360" controls>
+      <source src="presentacion.mp4" type="video/mp4">
+      <source src="presentacion.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
+    <br>
+              <h2>  <strong>Sumérgete en la belleza y la diversidad de nuestro paraíso caribeño.</h2><br> Desde sus playas de arena blanca y aguas turquesas hasta sus vibrantes ciudades llenas de cultura y tradición, la República Dominicana es un destino que enamora a todos sus visitantes.</p>
                 <br>
                  <strong>Explora nuestras guías de viaje, descubre los mejores destinos turísticos, infórmate sobre nuestra rica historia y cultura, y disfruta de nuestras recomendaciones para aprovechar al máximo tu visita. Ya sea que busques aventuras al aire libre, una escapada relajante o sumergirte en nuestra vibrante vida nocturna, aquí encontrarás todo lo que necesitas para planificar tu viaje ideal.</p>
                  <br>
