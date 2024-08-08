@@ -57,7 +57,26 @@ function showContent(section) {
             <h1>Salto Bayaguana</h1>
             <p>Conoce las atracciones más populares.</p>
             <p>Desde parques temáticos hasta museos históricos, hay algo para todos.</p>
-            <img src="el salto.jpg" alt="el salto  Image"> `;
+            <img src="el salto.jpg" alt="el salto  Image"> 
+            `;
+            break;
+            case 'Hotel Punta Cana':
+            content = `
+            <h1>Hotel Punta cana </h1>
+            <img src="hotel punta cana.jpg" alt="Hotel punta cana Image"> 
+            `;
+            break;
+            case 'Playa Turistica':
+            content = `
+            <h1>Playa Turistica</h1>
+            <img src="playa.jpg" alt="Playa Image"> 
+            `;
+            break;
+            case 'Muelle Turistico':
+            content = `
+            <h1>Muelle Turistico</h1>
+            <img src="muelle.jpg" alt="Muelle Image">
+            `;
             break;
         default:
             content = `
