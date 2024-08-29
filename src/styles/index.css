@@ -1,0 +1,45 @@
+body {
+ font-family:"Roboto", sans-serif;
+    font-weight:700 ;
+    margin: 0;
+    padding: 0;
+    background-color:#1d74bb;
+}
+header
+{
+font-family: "Lobster", sans-serif;
+font-weight: 400;
+font-style: normal;  
+color:white;
+padding: 10px 5;
+position:fixed;
+width: 100%;
+top:top;
+z-index: 1000;
+}
+
+.navbar 
+{
+    display:flex;
+    justify-content: space-around;
+    background-color:black;
+    padding:1px;
+}
+.navbar a 
+{
+    color: white;
+    text-decoration:none;
+    padding: 10px 20px;
+}
+.navbar a:hover 
+{
+    background-color: #7db90b;
+    border-radius: 50px;
+}
+.content 
+{
+    padding: 20px;
+}
+#Atraccion{
+    background-color: #b2b2b2;
+}
